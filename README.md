@@ -1,6 +1,6 @@
 # BugRepoKit
 
-[![CI Status](http://img.shields.io/travis/Shinya Yamamoto/BugRepoKit.svg?style=flat)](https://travis-ci.org/Shinya Yamamoto/BugRepoKit)
+[![CI Status](http://img.shields.io/travis/ShinyaYamamoto/BugRepoKit.svg?style=flat)](https://travis-ci.org/ShinyaYamamoto/BugRepoKit)
 [![Version](https://img.shields.io/cocoapods/v/BugRepoKit.svg?style=flat)](http://cocoapods.org/pods/BugRepoKit)
 [![License](https://img.shields.io/cocoapods/l/BugRepoKit.svg?style=flat)](http://cocoapods.org/pods/BugRepoKit)
 [![Platform](https://img.shields.io/cocoapods/p/BugRepoKit.svg?style=flat)](http://cocoapods.org/pods/BugRepoKit)
@@ -22,7 +22,7 @@ pod "BugRepoKit"
 
 ## Author
 
-Shinya Yamamoto, yamashin1003@hotmail.co.jp
+Shinya Yamamoto, syamamo5@asu.edu
 
 ## License
 

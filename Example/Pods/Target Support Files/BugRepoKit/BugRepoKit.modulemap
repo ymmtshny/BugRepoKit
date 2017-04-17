@@ -1,0 +1,6 @@
+framework module BugRepoKit {
+  umbrella header "BugRepoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
