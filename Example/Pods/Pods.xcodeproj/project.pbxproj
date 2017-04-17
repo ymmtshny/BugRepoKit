@@ -17,6 +17,7 @@
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		3B83A2F08BC090A6FD3EBA869E1BD39D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4372219A255910C01417DC5E73D06C77 /* TestSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6927E6254EA318FAD8B202068B83EBF9 /* TestSource.swift */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		59319B3C99FDB0A078C1C4004594110B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		640776F175B648FBC2E43C16ECF3F39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
@@ -27,7 +28,6 @@
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A21C6942C4F547D9991FF204FBAB66B /* Pods-BugRepoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2965521CA9E442FA6ADC1FB07ABDB935 /* Pods-BugRepoKit_Example-dummy.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		B70F46B7131E29DE0E7584F3C4BFF067 /* BugRepoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6B01C97CD165F81CEF1FA6498ECAD8 /* BugRepoKit-dummy.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
@@ -37,7 +37,7 @@
 		D0EE68C961999D857135AED6A11691F1 /* BugRepoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1837D37260176FA4D18E54B6F5C4F184 /* BugRepoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D32332CA40D4F631E8DBA950B25A18FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32099E0A716483F90035D502A494AC /* XCTest.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		FAF59A593EBF456BCA21A2A853E1E3F7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E2714E2C645F5429E9CD33DCE3794 /* ReplaceMe.swift */; };
+		DC23AB9A0E6C0FBF5927D4D358EAE48B /* BugRepoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6B01C97CD165F81CEF1FA6498ECAD8 /* BugRepoKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,6 @@
 		13EE991675B279E4E7A5B3D0527D8079 /* Pods_BugRepoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BugRepoKit_Example.framework; path = "Pods-BugRepoKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1837D37260176FA4D18E54B6F5C4F184 /* BugRepoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BugRepoKit-umbrella.h"; sourceTree = "<group>"; };
 		1A7864A548649368E67160C519B75711 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		295E2714E2C645F5429E9CD33DCE3794 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		2965521CA9E442FA6ADC1FB07ABDB935 /* Pods-BugRepoKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BugRepoKit_Example-dummy.m"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		3552B3D021D92377423F8F0FFA7A65EA /* Pods-BugRepoKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BugRepoKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -83,6 +82,7 @@
 		60A1748782933A1917C09F9EA337F6A0 /* Pods-BugRepoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BugRepoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		66E544FFE04F7CF0E40C68B306DB9AD8 /* BugRepoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BugRepoKit-prefix.pch"; sourceTree = "<group>"; };
 		68FD433FF42CC27D6A99CBF37EEFEFB6 /* Pods-BugRepoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BugRepoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6927E6254EA318FAD8B202068B83EBF9 /* TestSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestSource.swift; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -224,6 +224,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		5C78DBC6F0175137E3F4ECB4122B43C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6927E6254EA318FAD8B202068B83EBF9 /* TestSource.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6A0048F313522B687C772B969C6A069B /* Pods-BugRepoKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,7 +280,7 @@
 		87644B28AD7BC8D6DC45E47FAB23BECE /* BugRepoKit */ = {
 			isa = PBXGroup;
 			children = (
-				BDDFADABA3A005264B3F4AD7C7C72843 /* Classes */,
+				5C78DBC6F0175137E3F4ECB4122B43C2 /* Classes */,
 			);
 			name = BugRepoKit;
 			path = BugRepoKit;
@@ -294,15 +303,6 @@
 				EF2C3096B843B050A8A2E0E44E4E0E68 /* Pods_BugRepoKit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BDDFADABA3A005264B3F4AD7C7C72843 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				295E2714E2C645F5429E9CD33DCE3794 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		CDB1DA2DDD03EDDCC9107E835A831ECB /* BugRepoKit */ = {
@@ -439,7 +439,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ABA5F6E2365D6DC020DBBBE7AC4670A /* Build configuration list for PBXNativeTarget "BugRepoKit" */;
 			buildPhases = (
-				3F220C9167DFF059E80732557113B94F /* Sources */,
+				71454E0DF4EF7C34C33D378E062F693D /* Sources */,
 				89344CEFFD7287B8CC1150FA7114410C /* Frameworks */,
 				041F12AA55C69CD6108D9AA26FD8B622 /* Headers */,
 			);
@@ -500,12 +500,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F220C9167DFF059E80732557113B94F /* Sources */ = {
+		71454E0DF4EF7C34C33D378E062F693D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B70F46B7131E29DE0E7584F3C4BFF067 /* BugRepoKit-dummy.m in Sources */,
-				FAF59A593EBF456BCA21A2A853E1E3F7 /* ReplaceMe.swift in Sources */,
+				DC23AB9A0E6C0FBF5927D4D358EAE48B /* BugRepoKit-dummy.m in Sources */,
+				4372219A255910C01417DC5E73D06C77 /* TestSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

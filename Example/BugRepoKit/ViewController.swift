@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import BugRepoKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let reportButton = BugReportButton.create()
+        self.view.addSubview(reportButton)
     }
 
     override func didReceiveMemoryWarning() {

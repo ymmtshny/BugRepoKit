@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of BugRepoKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Shinya Yamamoto/BugRepoKit",
+  "homepage": "https://github.com/ymmtshny/BugRepoKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Shinya Yamamoto": "yamashin1003@hotmail.co.jp"
+    "Shinya Yamamoto": "syamamo5@asu.edu"
   },
   "source": {
-    "git": "https://github.com/Shinya Yamamoto/BugRepoKit.git",
+    "git": "https://github.com/ymmtshny/BugRepoKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
