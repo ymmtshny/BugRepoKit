@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let reportButton = BugReportButton.create()
-        self.view.addSubview(reportButton)
+        reportButton.show()
     }
 
     override func didReceiveMemoryWarning() {
